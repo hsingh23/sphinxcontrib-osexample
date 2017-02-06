@@ -142,3 +142,4 @@ def setup(app):
 	app.add_lexer('Fedora', FedoraLexer())
 	app.add_lexer('CentOS', CentosLexer())
     app.add_lexer('OSX', OSXLexer())
+    return {'parallel_read_safe': True}
