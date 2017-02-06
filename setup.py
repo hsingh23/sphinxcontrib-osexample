@@ -27,6 +27,7 @@ setup(
     keywords = "Sphinx extension",
     long_description=readme(),
     zip_safe=False,
+    parallel_read_safe: True,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
